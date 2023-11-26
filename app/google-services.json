@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552044512309",
+    "project_id": "a123-82c11",
+    "storage_bucket": "a123-82c11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552044512309:android:83001803b0095423f09d7c",
+        "android_client_info": {
+          "package_name": "com.example.trail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ7KCE2h1F5Ui3xtdmJuboU2RcGC_G9Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
