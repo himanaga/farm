@@ -18,63 +18,33 @@
         app:layout_constraintVertical_bias="0.095"
         app:srcCompat="@drawable/img_10" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="235dp"
-        android:layout_height="51dp"
-        android:maxLength="6"
-        android:onClick="login"
-        android:text="LOGIN"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.534"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.633" />
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="210dp"
-        android:layout_height="62dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:ems="10"
-        android:hint="OTP"
-        android:inputType="number"
-        android:gravity="center"
-        android:maxLength="6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.197" />
-
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="226dp"
         android:layout_height="53dp"
-        android:ems="10"
-        android:textColor="@android:color/holo_red_dark"
-        android:hint="Phone no."
-        android:shadowColor="@android:color/holo_red_dark"
-        android:gravity="center"
+        android:layout_marginTop="68dp"
         android:autofillHints="phone"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone no."
         android:inputType="phone"
-        android:maxLength="10"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        android:maxLength="11"
+        android:shadowColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintVertical_bias="0.008" />
 
     <com.hbb20.CountryCodePicker
         android:id="@+id/login_countrycode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textColor="@android:color/holo_red_dark"
         app:ccp_showFlag="false"
-        android:gravity="center"
         app:ccp_showNameCode="false"
         app:layout_constraintBottom_toBottomOf="@+id/editTextPhone"
         app:layout_constraintEnd_toStartOf="@+id/editTextPhone"
@@ -85,14 +55,29 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="79dp"
-        android:layout_height="48dp"
-        android:text="send"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextPhone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.264"
-        app:layout_constraintStart_toEndOf="@+id/editTextPhone"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:text="send otp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextPhone"
         app:layout_constraintTop_toTopOf="@+id/editTextPhone"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:text="G Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextPhone"
+        app:layout_constraintTop_toTopOf="@+id/editTextPhone"
+        app:layout_constraintVertical_bias="0.591" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

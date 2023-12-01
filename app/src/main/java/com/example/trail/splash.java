@@ -1,10 +1,8 @@
 package com.example.trail;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -22,6 +20,6 @@ public class splash extends AppCompatActivity {
             public void run() {
                 startActivity(new Intent(getApplicationContext(), login.class));
             }
-        }, 3210);
+        }, 2210);
     }
 }
